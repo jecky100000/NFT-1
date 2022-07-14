@@ -1,5 +1,8 @@
 # NFT大师项目
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+![首页](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104132%402x.png)
+![市场](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104211%2x.png)
+![盲盒](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104231%2x.png)
+![我的](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104245%2x.png)
 
 ### 1.简介
 > 项目NFT可以拍卖方式二次销售,无二级市场，合法合规。NFT每次的拍卖纪录,价格有纪录展示，公开透明。目前有盲盒,合成,铸造等玩法。
