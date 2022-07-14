@@ -1,4 +1,4 @@
-# NFT大师项目(wx:TRC-20TRX)
+# NFT大师项目(微信:TRC-20TRX)
 ![首页](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104132%402x.png)
 ![市场](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104211%2x.png)
 ![盲盒](https://github.com/qq2504021719/NFT/blob/master/img/WX20220714-104231%2x.png)
