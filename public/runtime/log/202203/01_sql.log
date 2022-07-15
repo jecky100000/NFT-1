@@ -1,0 +1,423 @@
+---------------------------------------------------------------
+[ 2022-03-01T10:56:22+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_setting` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_setting` WHERE  `yc_setting`.`wxapp_id` = 10001  AND `wxapp_id` = 10001 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:26+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:28+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/setting/store
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:29+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/apps.test/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:29+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/wxapp/setting
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `yc_wxapp`.`wxapp_id` = 10001 LIMIT 1 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:30+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/content.article/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_article_category` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_article` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_article` WHERE  `yc_article`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_article` WHERE  `yc_article`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `article_sort` ASC,`create_time` DESC LIMIT 0,15 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:32+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_user` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:33+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/store.user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000725s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:34+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000722s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:56:42+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.003470s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.003047s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:57:09+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2022-03-01T10:58:13+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:00:25+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:02:13+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:02:18+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000646s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:02:20+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:02:22+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000593s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:01+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:02+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000845s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:03+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000712s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000254s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:03+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:03+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:04+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:04+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:04+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:04+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:05+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:05+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:06+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:11+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:12+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/enter/wxapp_id/10001
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `is_delete` = 0  AND `wxapp_id` = 10001  AND `is_super` = 1 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `wxapp_id` = 10001 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:06:12+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:14:15+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000633s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:14:16+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:14:17+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000651s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:14:43+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:14:51+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:14:52+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.006331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:11+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:12+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/apps.test/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:13+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/setting/store
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011849s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.032260s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.021752s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:14+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/wxapp/setting
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `yc_wxapp`.`wxapp_id` = 10001 LIMIT 1 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:15+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/content.article/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000704s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_article_category` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_article` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_article` WHERE  `yc_article`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_article` WHERE  `yc_article`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `article_sort` ASC,`create_time` DESC LIMIT 0,15 [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:15+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_user` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:17+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000694s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_user` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:19+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/store.user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000236s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:20+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:22+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/store.user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000739s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000257s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:23+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_user` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:25+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/user/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000680s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_user` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_user` WHERE  `yc_user`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:25+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/content.article/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000650s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_article_category` [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_article` [ RunTime:0.000541s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_article` WHERE  `yc_article`.`wxapp_id` = 10001  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_article` WHERE  `yc_article`.`wxapp_id` = 10001  AND `is_delete` = 0 ORDER BY `article_sort` ASC,`create_time` DESC LIMIT 0,15 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:26+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/wxapp/setting
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `yc_wxapp`.`wxapp_id` = 10001 LIMIT 1 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:27+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/apps.test/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:28+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/setting/store
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:29+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/setting/store
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000631s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:30+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000718s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:32+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:24:48+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/store/index/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000805s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000717s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000296s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:26:01+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000679s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:22+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:23+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:24+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:26+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:29+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000658s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:30+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:31+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000724s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000297s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:31+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000691s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2022-03-01T11:30:31+08:00 ] 1.204.183.111 GET sa.yitnt.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_store_user` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_store_user` WHERE  `yc_store_user`.`wxapp_id` = 10001  AND `is_delete` = 0  AND `store_user_id` = 10001 LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2022-03-01T12:01:00+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2022-03-01T12:01:05+08:00 ] 1.204.183.111 GET sa.yitnt.com/index.php?s=/admin/store/index
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000693s ] mysql:host=127.0.0.1;port=3306;dbname=saas;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `yc_wxapp` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `yc_wxapp` WHERE  `is_recycle` = 0  AND `is_delete` = 0 ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000266s ]
